@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_happy_place_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="gone"/>
+    <TextView
+        android:id="@+id/tv_no_records_available"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/no_record_available_text_size"
+        android:text="@string/no_happy_places_found_yet_kindly_add_one"
+        android:visibility="visible"
+        tools:visibility="visible"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddHappyPlaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src = "@drawable/ic_add"
+        android:contentDescription="@string/add_button_to_add_happy_places"
+        />
+
+
+
+</FrameLayout>

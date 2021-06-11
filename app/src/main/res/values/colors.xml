@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#4b86b4</color>
+    <color name="purple_500">#2a4d69</color>
+    <color name="purple_700">#122F4B</color>
+    <color name="colorAccent">#abcbe3</color>
+    <color name="teal_200">#63ace5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- #011f4b • #03396c • #005b96 • #6497b1 • #b3cde0 -->
+
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#9AA2AF</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="button_background_color">#63ace5</color>
+
+    <color name="circular_image_border_color">#757575</color>
+    <color name="item_happy_place_description_text_place">#606060</color>
+
+
+    <color name="detail_screen_description_textColor">#757575</color>
+</resources>
